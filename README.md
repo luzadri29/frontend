@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project you will connect to an open API and build a small **React** app to query the API.
+You have 2 hours and 15 minutes from when you received this file to complete and upload the project.
 
-## Available Scripts
+# Project Summary
 
-In the project directory, you can run:
+Please **fetch a list of companies from https://fakerapi.it/api/v1/companies and create a web page that displays information about 12 companies.** You can find API documentation here: https://fakerapi.it/en
 
-### `yarn start`
+We're looking less for depth of complexity and more for a complete project. **Documentation, testing, JS and CSS expertise, and good organization are key criteria we'll be looking for.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+We have included the configuration for a Create React App project in the `./frontend` folder. Navigate to `./frontend` and run `npm install` (or `yarn`, if you have it) to get started. Initializing your project can take a few minutes so you may want to start the install now.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Feel free to add any additional libraries you would like, for example, additional testing libraries, CSS frameworks, component libraries, or CSS preprocessors, etc.
 
-### `yarn test`
+# Evaluation Criteria
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The following are the evaluation criteria:
 
-### `yarn build`
+- Repository is version controlled with Git **(1 point)**
+- Data is fetched from an API endpoint using the method of your choice **(2 points)**
+- Project design rationale in a `SOLUTION.md` **(1 point)**
+- Data from the API is displayed in the react application **(1 points)**
+- Organized project structure **(1 point)**
+- Well composed React components **(2 points)**
+- Each component is documented at least a small amount (JSDoc optional) **(2 points)**
+- Inline comments for complex code **(1 point)**
+- At least one component is tested **(2 points)**
+- Design is coherent with good UX and accessibility **(up to 3 points)**
+- CSS is well structured and uses any of the following: BEM, CSS Modules, CSS-in-JS, the CSS preprocessor of your choice, or the CSS framework of your choice **(2 points)**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Bonus Points
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Responsive design **(1 point)**
+- Using CSS Grid **(1 point)**
+- Routing **(1 point)**
+- Error handling **(1 point)**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Note: it's a good idea to choose a smaller scope for the project to give you time to focus on testing, documentation, and clean, well organized code.
 
-### `yarn eject`
+## Not Important
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Don't worry about cross browser compatibility
+- Don't worry about fetching any additional data
+- Don't worry about spending too much time on complex visuals
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Testing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Create React App comes with Jest installed. You may add additional testing libraries if you'd like. The simplest way to create a test is to create a `<component>.test.js` and run `npm test` (or `yarn test`). See https://create-react-app.dev/docs/running-tests/ for more info.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Upload Instructions
 
-## Learn More
+If you aren't able to complete the entire exercise, that's alright. Upload your progress so far and we can discuss in the review interview.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Upload your project to a private GitLab or GitHub repo.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**OR**
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Zip and share the share the zip file via email. (Make sure **NOT** to include your `frontend/node_modules` folder!)
